@@ -1,0 +1,104 @@
+/* Link para Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo do corpo com a logo */
+body {
+    font-family: 'Metal Mania', cursive; /* Fonte "Metal Mania" aplicada */
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+    background-image: url('caminho/para/sua/logo.png'); /* Caminho para a logo */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Ajuste da logo no fundo */
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(255, 0, 127, 0.8); /* Rosa mais forte com opacidade */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Metal Mania', cursive; /* Fonte "Metal Mania" aplicada */
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff007f;
+}
+
+/* Seções com fundo semi-transparente */
+section {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto semi-transparente */
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    font-family: 'Metal Mania', cursive; /* Fonte "Metal Mania" aplicada */
+    color: #ff007f;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Outros ajustes para as seções, vídeos, discografia e rodapé permanecem os mesmos */
+/* Estilos para a galeria */
+#galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
